@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Фиксатор трат</string>
+
+    <string name="app_settings_report_totally_string">ИТОГО</string>
+    <string name="app_settings_report_on_period_string">За период</string>
+    <string name="app_settings_fieldnames_money_id">№</string>
+    <string name="app_settings_fieldnames_money_date_of_tra">Дата</string>
+    <string name="app_settings_fieldnames_money_sum_of_tra">Сумма</string>
+    <string name="app_settings_fieldnames_money_text_of_tra">Описание</string>
+
+    <string name="activity_main_tv1_text">Дата,время</string>
+    <string name="activity_main_tv2_text">Cумма</string>
+    <string name="activity_main_tv3_text">Описание</string>
+    <string name="activity_main_addbutton_text">Внести трату</string>
+    <string name="activity_main_tvMessage_text_init">Готов.</string>
+    <string name="activity_main_tvMessage_text_added">Трата добавлена</string>
+    <string name="activity_main_addMenuButton_text">Дополнительно</string>
+
+    <string name="activity_add_menu_report1Button_text">Отчет 1</string>
+    <string name="activity_add_menu_report2Button_text">Просмотр, удаление</string>
+    <string name="activity_add_menu_exportDbButton_text">Экспорт БД</string>
+    <string name="activity_add_menu_importDbButton_text">Импорт БД</string>
+
+    <string name="activity_export_tv1_text">Будет выполнен экспорт БД!</string>
+    <string name="activity_export_tvExportDir_text">Каталог, куда экспортировать</string>
+    <string name="activity_export_cbToScript_text">В виде скрипта</string>
+    <string name="activity_export_exportRunButton_text">Выполнить экспорт</string>
+
+    <string name="activity_import_tv1_text">ВНИМАНИЕ!!!\nВСЯ ИНФОРМАЦИЯ БУДЕТ ПЕРЕЗАТЕРТА ИНФОРМАЦИЕЙ ИЗ ИМПОРТНОЙ БД!</string>
+    <string name="activity_import_tvImportDir_text">Каталог, откуда импортировать</string>
+    <string name="activity_import_importRunButton_text">Выполнить импорт</string>
+
+    <string name="activity_report1_tvDateFrom_text">Дата, время C</string>
+    <string name="activity_report1_tvDateTo_text">Дата, время ПО</string>
+    <string name="activity_report1_reportButtonRun_text">Создать отчет 1</string>
+
+    <string name="activity_report2_edDesc_init_text">Фильтр по описанию</string>
+    <string-array name="activity_report2_spSort_values">
+        <item>Сорт:дата</item>
+        <item>Сорт:опис,дата</item>
+        <item>Сорт:№</item>
+    </string-array>
+    <string name="activity_report2_tvDateFrom_text">Дата C</string>
+    <string name="activity_report2_tvDateTo_text">Дата ПО</string>
+    <string name="activity_report2_reportButtonRun_text">Выбрать</string>
+    <string name="activity_report2_tvDel_text">Удалить ID</string>
+    <string name="activity_report2_delButton_text">Удалить</string>
+    <string name="activity_report2_deleted_string_message">Удалена затрата:</string>
+    <string name="activity_report2_deleted_string_error_message">Ошибка при удалении затраты с номером</string>
+
+    <string name="title_activity_main">Добавить запись</string>
+    <string name="title_activity_add_menu">Дополнительно</string>
+    <string name="title_activity_export">Экспорт БД</string>
+    <string name="title_activity_import">Импорт БД</string>
+    <string name="title_activity_report1">Отчет 1</string>
+    <string name="title_activity_report2">Просмотр, удаление</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

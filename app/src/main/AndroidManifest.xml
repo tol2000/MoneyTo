@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ua.odessa.tol2000.moneyto" >
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/money"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:windowSoftInputMode="stateHidden"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AddMenuActivity"
+            android:windowSoftInputMode="stateHidden"
+            android:label="@string/title_activity_add_menu"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ua.odessa.tol2000.moneyto.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Report1Activity"
+            android:windowSoftInputMode="stateHidden"
+            android:label="@string/title_activity_report1"
+            android:parentActivityName=".AddMenuActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ua.odessa.tol2000.moneyto.AddMenuActivity" />
+        </activity>
+        <activity
+            android:name=".Report2Activity"
+            android:windowSoftInputMode="stateHidden"
+            android:label="@string/title_activity_report2"
+            android:parentActivityName=".AddMenuActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ua.odessa.tol2000.moneyto.AddMenuActivity" />
+        </activity>
+        <activity
+            android:name=".ExportActivity"
+            android:windowSoftInputMode="stateHidden"
+            android:label="@string/title_activity_export"
+            android:parentActivityName=".AddMenuActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ua.odessa.tol2000.moneyto.AddMenuActivity" />
+        </activity>
+        <activity
+            android:name=".ImportActivity"
+            android:windowSoftInputMode="stateHidden"
+            android:label="@string/title_activity_import"
+            android:parentActivityName=".AddMenuActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ua.odessa.tol2000.moneyto.AddMenuActivity" />
+        </activity>
+    </application>
+
+</manifest>
