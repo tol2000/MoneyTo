@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 21
+    compileSdkVersion 24
     buildToolsVersion "21.1.2"
 
     defaultConfig {
         applicationId "ua.odessa.tol2000.moneyto"
-        minSdkVersion 15
-        targetSdkVersion 21
+        minSdkVersion 24
+        targetSdkVersion 24
         versionCode 1
         versionName "1.0"
     }
